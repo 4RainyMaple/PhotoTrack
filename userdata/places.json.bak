@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "rev": 33,
+  "places": [
+    {
+      "id": "umvwjme0h5hlnd",
+      "name": "798艺术区",
+      "lat": 39.98294,
+      "lon": 116.48978,
+      "district": "朝阳区",
+      "category": "景点",
+      "source": "poi",
+      "poiId": "b842dd8ddbe",
+      "createdAt": 1793459737457,
+      "intro": ""
+    }
+  ],
+  "savedAt": "2026-10-31T16:20:30.170Z"
+}

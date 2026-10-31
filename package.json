@@ -1,0 +1,25 @@
+{
+  "name": "phototrack",
+  "version": "0.3.0",
+  "private": true,
+  "description": "PhotoTrack — 按拍摄地点整理照片的地图相册（北京）",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.mjs --open",
+    "start:server": "node server.mjs",
+    "restart": "node scripts/restart.mjs",
+    "build:geo": "node scripts/build-geo.mjs",
+    "build:poi": "node scripts/build-poi.mjs",
+    "build:data": "npm run build:geo && npm run build:poi",
+    "test": "node scripts/smoke-test.mjs",
+    "test:http": "node scripts/smoke-http.mjs",
+    "test:photos": "node scripts/smoke-photos.mjs",
+    "preview:map": "python scripts/preview_map.py"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.3",
+    "pinyin-pro": "^3.29.5"
+  }
+}
